@@ -1,3 +1,4 @@
+### Notices
 manuals - information about various devices and pieces of software
 Copyright (C) 2021 Andrew F
 
