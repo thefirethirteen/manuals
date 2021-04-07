@@ -1,5 +1,6 @@
-manuals - information about various devices and pieces of software
-Copyright (C) 2021 Andrew F
+## Notices
+manuals - information about various devices and pieces of software <br>
+Copyright (C) 2021 Andrew F <br>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -30,4 +31,4 @@ Plugin for autoinstalling these is WIP in thefirethirteen/quick-start-addons
 
 ### Notes
 
-This file is WIP.
+- This file is WIP.
