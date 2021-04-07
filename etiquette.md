@@ -1,6 +1,6 @@
-### Notices
-manuals - information about various devices and pieces of software
-Copyright (C) 2021 Andrew F
+## Notices
+manuals - information about various devices and pieces of software <br>
+Copyright (C) 2021 Andrew F <br>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -22,8 +22,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 All manual files should be created using the MARKDOWN (.md) format.
 
 All manual files should start with this notice:
->manuals - information about various devices and pieces of software
->Copyright (C) <year> <your_name>
+>## Notices
+>manuals - information about various devices and pieces of software <br>
+>Copyright (C) <year> <your_name> <br>
 >
 >This program is free software: you can redistribute it and/or modify
 >it under the terms of the GNU General Public License as published by
@@ -39,7 +40,7 @@ All manual files should start with this notice:
 >along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 When using the GNU GPLv3 license, changes must be stated. If you change a file created by somebody else, add the following notice after the copyright notice of the file:
->Modifications Copyright (C) <year> <your_name>
+>Modifications Copyright (C) <year> <your_name> <br>
 
 ### Notes
 
