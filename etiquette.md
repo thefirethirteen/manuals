@@ -1,5 +1,5 @@
 ## Notices
-manuals - information about various devices and pieces of software <br>
+manuals - information about all things ICT <br>
 Copyright (C) 2021 Andrew F <br>
 
 This program is free software: you can redistribute it and/or modify
@@ -23,7 +23,7 @@ All manual files should be created using the MARKDOWN (.md) format.
 
 All manual files should start with this notice:
 >## Notices
->manuals - information about various devices and pieces of software <br>
+>manuals - information about all things ICT <br>
 >Copyright (C) < year > < your_name > <br>
 >
 >This program is free software: you can redistribute it and/or modify
