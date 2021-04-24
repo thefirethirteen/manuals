@@ -1,5 +1,5 @@
 ## Notices
-manuals - information about all things ICT <br>
+manuals - information about all things IT <br>
 Copyright (C) 2021 Andrew F <br>
 
 This program is free software: you can redistribute it and/or modify
