@@ -1,5 +1,5 @@
 ## Notices
-manuals - information about all things ICT <br>
+manuals - information about all things IT <br>
 Copyright (C) 2021 Andrew F <br>
 
 This program is free software: you can redistribute it and/or modify
@@ -27,7 +27,7 @@ https://support.hp.com/gb-en/drivers/selfservice/hp-pavilion-15-p000-notebook-pc
 
 ## Broadcom Drivers for linux (ubuntu)
 
-Plugin for autoinstalling these is WIP in thefirethirteen/quick-start-addons
+Plugin for autoinstalling these is WIP
 
 ### Notes
 
