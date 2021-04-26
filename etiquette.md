@@ -23,7 +23,7 @@ All manual files should be created using the MARKDOWN (.md) format.
 
 All manual files should start with this notice:
 >## Notices
->manuals - information about all things ICT <br>
+>manuals - information about all things IT <br>
 >Copyright (C) < year > < your_name > <br>
 >
 >This program is free software: you can redistribute it and/or modify
