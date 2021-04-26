@@ -41,13 +41,25 @@ if output is "might not be an ISO filesystem" then the disc does not have an ISO
 
 #### 1.b. Check if udf:
 
+For this, you need to have the udftools package installed. <br>
+To install this package on debian & derivatives (such as ubuntu) run:
+> apt-get install udftools
+
+To check, run:
+
 > udfinfo -x /dev/cdrom
+
 *or*
+
 > udfinfo -x /dev/sr0
+
 *or*
+
 > udfinfo -x /dev/sr1
-etc..
+
+etc.. <br>
 *or*
+
 > udfinfo -x /dev/hdc
 (rarely)
 
@@ -91,4 +103,4 @@ For example:
 ### Notes
 
 - This file is WIP.
-- udfinfo is installed by a package, it does not come preinstalled; the guide should include that
+- This file details the process for debian & derivatives. It should also detail the process for other distributions.
