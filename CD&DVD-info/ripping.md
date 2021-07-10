@@ -103,4 +103,3 @@ For example:
 ### Notes
 
 - This file is WIP.
-- This file details the process for debian & derivatives. It should also detail the process for other distributions.
