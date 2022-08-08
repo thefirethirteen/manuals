@@ -49,13 +49,31 @@ For the following sections you must know the following:
 2. You may see things like `18.x.x`, the `.x.x` part could mean `18.0.2` or `18.12.56`, for example. The `x`s are used because the guide cannot know for sure what version you have installed.
 
 ## Screen: Language
+Note that each language has an associated `Completeness`. That refers to the completeness level of the translation into that language.
+
+Choose your preferred language, then click `Next >`.
 
 ## Screen: Java
 Select `18.x.x` under Version, and make sure it’s the one whose `Path` starts with `C:\`.
 
-Under `Memory`, set `Maximum memory allocation:` to half, or a quarter (if you want to play it safe) of the total amount of memory (RAM) that you have in your system.
+### Memory
 
-You might already know this information. If you don’t, (the following applies to Windows 8 or later only (Windows 8, 8.1, 10, 11)) use the `Windows Key` + `R` key combo to spawn a `Run` box. Enter `taskmgr` in the `Run` box and click `OK`. Go to the `Performance` tab, then to `Memory`. On the right, you should see `Memory` written in big letters, and to the right of that you should find the amount of memory your system has installed.
+You might already know how much memory your system has. If you don’t, (the following applies to Windows 8 or later only (Windows 8, 8.1, 10, 11)) use the `Windows Key` + `R` key combo to spawn a `Run` box. Enter `taskmgr` in the `Run` box and click `OK`. Go to the `Performance` tab, then to `Memory`. On the right, you should see `Memory` written in big letters, and to the right of that you should find the amount of memory your system has installed.
+
+Under `Memory`, set `Maximum memory allocation:` to half, or a quarter (if you want to play it safe) of the total amount of memory (RAM) that you have in your system, then click `Finish`.
+
+### Notes
+
+You may be asking why we installed two versions of Java. Well, it's because modern Minecraft, depending on the version, needs either Java 16, 17 or 18. Some old versions may run with these new Java versions, but it's not guaranteed.
+
+So, we use Java 8 for those old versions. Java 8 is also needed for playing with the Forge modloader on most older versions.
+
+## Finish up
+PolyMC has been installed and configured on your system. You may now delete its installer.
+
+# Finishing words
+
+You have now installed PolyMC! For a basic guide on using it, check out [PolyMC Usage Guide](https://github.com/thefirethirteen/manuals/blob/main/Minecraft/Launchers/PolyMC/PolyMC_Usage_Guide.md).
 
 # Manual information
 
