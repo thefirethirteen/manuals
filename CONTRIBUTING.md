@@ -1,6 +1,12 @@
-# Contributors
+# Contributing to manuals
 
-* thefirethirteen
+## Rules for all files
+
+All manual files should be created using the MARKDOWN (.md) format.
+
+### Notes
+
+- This file is WIP.
 
 # File information
 

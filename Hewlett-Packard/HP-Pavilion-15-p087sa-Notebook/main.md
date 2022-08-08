@@ -1,20 +1,3 @@
-## Notices
-manuals - information about all things IT <br>
-Copyright (C) 2021 thefirethirteen <br>
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
 # HP Pavilion 15-p087sa Notebook PC (ENERGY STAR)
 
 ## System Info
@@ -31,4 +14,9 @@ Plugin for autoinstalling these is WIP
 
 ### Notes
 
-- This file is WIP.
+- This manual is WIP.
+
+# Manual information
+
+&copy; 2022 [manuals contributors](https://github.com/thefirethirteen/manuals/blob/main/contributors.md)
+<br> Licensed under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license
