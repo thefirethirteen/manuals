@@ -14,11 +14,11 @@ For both Java 8 and Java 18, select the following:
 
 For Java 8, also select the following:
 * `Version`: 8
-<br> then scroll a bit down and click ![](./PolyMC_Windows_Installation/java_installers_msi_download_button.png) to download.
+<br> then scroll a bit down and click ![Download Button which says .msi with a download icon to the left of the text](./PolyMC_Windows_Installation/java_installers_msi_download_button.png) to download.
 
 For Java 18, also select the following:
 * `Version`: 18
-<br> then scroll a bit down and click ![](./PolyMC_Windows_Installation/java_installers_msi_download_button.png) to download.
+<br> then scroll a bit down and click ![Download Button which says .msi with a download icon to the left of the text](./PolyMC_Windows_Installation/java_installers_msi_download_button.png) to download.
 
 ## Installing Java using the downloaded installers
 For Java 8, run the installer with 8 in its name, and for Java 18, run the installer with 18 in its name.
@@ -37,8 +37,8 @@ More specifically, you need to know if you have a Windows version above Windows 
 
 ## Downloading PolyMC
 Navigate to <https://polymc.org/download/>, if you haven’t already. With the information gathered at the previous section, choose
-1. ![](./PolyMC_Windows_Installation/polymc_installer_download_button.png) for Windows versions above Windows 10
-2. A bit lower on the page, under `Legacy version`, ![](./PolyMC_Windows_Installation/polymc_legacy_installer_download_button.png) for Windows versions below Windows 8.1
+1. ![Long, green button which says Installer (.exe)](./PolyMC_Windows_Installation/polymc_installer_download_button.png) for Windows versions above Windows 10
+2. A bit lower on the page, under `Legacy version`, ![Clickable text. The text is Legacy installer (.exe)](./PolyMC_Windows_Installation/polymc_legacy_installer_download_button.png) for Windows versions below Windows 8.1
 
 ## Installing PolyMC using the downloaded installer
 The process is the same for either installer. Once the installer opens, click `Next`, then `Next`, then `Install`. At the end, click `Finish`.
