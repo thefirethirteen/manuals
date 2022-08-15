@@ -2,6 +2,8 @@
 title: CD&DVD-info
 ---
 
+# Contents
+
 {% assign doclist = site.pages | sort: 'url'  %}
  <ul>
     {% for doc in doclist %}
