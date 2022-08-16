@@ -4,11 +4,15 @@ title: Manuals Main Page
 
 # Browse manuals
 
+{% assign page_dir = page.dir | remove_first: "/" | split: "/" %}
+{% assign max_nesting = page_dir.size | plus: 2 %}
+
 {% assign doclist = site.pages | sort: 'url' %}
 <ul>
     {% for doc in doclist %}
-        {% unless doc.path == page.path %}
-            {% if doc.name == "index.md" %}
+        {% assign doc_dir = doc.dir | remove_first: "/" | split: "/" %}
+        {% unless doc.path == page.path or doc_dir.size > max_nesting %}
+            {% if doc.name == "index.md" and doc.dir contains page.dir%}
                     <li><a href="{{ site.baseurl }}{{ doc.url }}">{{ doc.title }}</a></li>
             {% endif %}
 
