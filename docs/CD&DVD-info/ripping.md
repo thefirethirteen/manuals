@@ -1,3 +1,7 @@
+---
+title: Ripping a CD or DVD
+---
+
 ## 1. Find disc filesystem
 
 #### 1.a. Check if iso:

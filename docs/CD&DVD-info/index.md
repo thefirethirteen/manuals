@@ -8,7 +8,7 @@ title: CD&DVD-info
  <ul>
     {% for doc in doclist %}
          {% if doc.name contains ".md" and doc.dir == page.dir and doc.path != page.path%}
-             <li><a href="{{ site.baseurl }}{{ doc.url }}">{{ doc.name }}</a></li>
+             <li><a href="{{ site.baseurl }}{{ doc.title }}">{{ doc.name }}</a></li>
          {% endif %}
      {% endfor %}
  </ul>
