@@ -1,5 +1,5 @@
 ---
-title: CD&DVD-info
+title: {{ page.dir | remove: "/"}}
 ---
 
 # Contents
@@ -14,5 +14,3 @@ title: CD&DVD-info
         {% endif %}
     {% endfor %}
 </ul>
-
-{{ page.dir }}
