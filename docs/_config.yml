@@ -1,1 +1,13 @@
-theme: jekyll-theme-slate
+remote_theme: thefirethirteen/slate
+
+plugins:
+- jekyll-remote-theme
+
+contributors:
+  text: manuals contributors
+  url: https://github.com/thefirethirteen/manuals/blob/main/contributors.md
+
+license:
+  default:
+    fancy_name: CC BY-SA 4.0
+    url: https://creativecommons.org/licenses/by-sa/4.0/
