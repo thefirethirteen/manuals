@@ -1,5 +1,5 @@
 ---
-title: CD&DVD-info
+title: Launchers
 ---
 
 # Contents
@@ -18,3 +18,4 @@ title: CD&DVD-info
         {% endunless %}
     {% endfor %}
 </ul>
+
