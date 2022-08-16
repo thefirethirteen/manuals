@@ -1,5 +1,5 @@
 ---
-title: {{ page.dir | remove: "/"}}
+title: CD&DVD-info
 ---
 
 # Contents
