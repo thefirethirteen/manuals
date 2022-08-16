@@ -14,3 +14,5 @@ title: CD&DVD-info
          {% endif %}
      {% endfor %}
  </ul>
+
+{{ doc.dir }}
