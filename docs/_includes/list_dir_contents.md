@@ -1,3 +1,10 @@
+{% comment %}
+    This include file will list, in the following order:
+        * an index file labeled `Go up` found in `../`, if this is enabled using the `enable_go_up` parameter
+        * any `.md` files found in `.`
+        * any index files found only one folder down
+{% endcomment %}
+
 {% assign page_dir = page.dir | remove_first: "/" | split: "/" %}
 {% assign max_nesting = page_dir.size | plus: 1 %}
 {% assign go_up_number = page_dir.size | minus: 1 %}
@@ -7,7 +14,7 @@
     {% for doc in doclist %}
         {% assign doc_dir = doc.dir | remove_first: "/" | split: "/" %}
 
-        {% if doc.name == "index.md" and doc_dir.size == go_up_number and page.dir contains doc.dir %}
+        {% if doc.name == "index.md" and doc_dir.size == go_up_number and page.dir contains doc.dir and include.enable_go_up %}
             <li><a href="{{ site.baseurl }}{{ doc.url }}">Go up</a></li>
         {% endif %}
 
