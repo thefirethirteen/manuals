@@ -4,4 +4,4 @@ title: Hewlett-Packard
 
 # Contents
 
-{% include index_content_list.md %}
+{% include list_dir_contents.md enable_go_up=true %}
