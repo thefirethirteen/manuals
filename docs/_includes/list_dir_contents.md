@@ -46,3 +46,7 @@
 
 {% endfor %}
 </ul>
+
+{% comment %}
+    Thanks to [Clement Ong](https://ongclement.com/) for the above [page listing](https://ongclement.com/blog/github-pages-indexing-directory-copy) as it is a very heavily modified version of theirs. Unfortunately I don't know what the original is licensed under. :(. All `index.md` files include the same modified version of the same Clement Ong code but may lack this notice, so consider this as a notice for them.
+{% endcomment %}
