@@ -4,8 +4,6 @@ title: Manuals Main Page
 
 # Browse manuals
 
-{% assign go_up_enabled = false %}
-
 {% include list_dir_contents.md enable_go_up=false %}
 
 
