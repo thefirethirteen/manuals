@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 # Using github pages
+# See https://pages.github.com/versions/ for the latest version
 gem "github-pages", "~> 227", group: :jekyll_plugins
 
 # Plugins

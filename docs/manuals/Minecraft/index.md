@@ -4,4 +4,4 @@ title: Minecraft
 
 # Contents
 
-{% include index_content_list.md %}
+{% include list_dir_contents.md %}

@@ -5,7 +5,7 @@ plugins:
 
 contributors:
   text: manuals contributors
-  url: https://github.com/thefirethirteen/manuals/blob/main/contributors.md
+  url: https://thefirethirteen.github.io/manuals/manuals/manuals-meta/contributors
 
 license:
   default:
