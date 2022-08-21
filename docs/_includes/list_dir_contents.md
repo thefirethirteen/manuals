@@ -1,8 +1,8 @@
 {% comment %}
     This include file will list, in the following order:
         * an index file labeled `Go up` found in `../`, if this is enabled using the `enable_go_up` parameter
-        * any `.md` files found in `.`
         * any index files found only one folder down
+        * any `.md` files found in `.`
 {% endcomment %}
 
 <!-- TODO -->
@@ -15,9 +15,9 @@
 {% assign go_up_number = page_dir.size | minus: 1 %}
 
 {% if include.enable_go_up == false %}
-    {% assign enable_go_up = false %}
+    {% assign go_up_enabled = false %}
 {% else %}
-    {% assign enable_go_up = true %}
+    {% assign go_up_enabled = true %}
 {% endif %}
 
 <!-- TODO -->
@@ -27,18 +27,22 @@
     <!-- TODO -->
     {% assign doc_dir = doc.dir | remove_first: "/" | split: "/" %}
 
-    {% if doc.name == "index.md" and doc_dir.size == go_up_number and page.dir contains doc.dir and enable_go_up %}
+    <!-- List the index file contained one directory above the current file with the text "Go up" (if this is enabled) -->
+    {% if doc.name == "index.md" and doc_dir.size == go_up_number and page.dir contains doc.dir and go_up_enabled %}
         <li><a href="{{ site.baseurl }}{{ doc.url }}">Go up</a></li>
     {% endif %}
-
+    
+    <!-- List all index files within the maximum nesting, but not the index itself -->
     {% unless doc.path == page.path or doc_dir.size > max_nesting %}
-        {% if doc.name == "index.md" and doc.dir contains page.dir%}
-                <li><a href="{{ site.baseurl }}{{ doc.url }}">{{ doc.title }}</a></li>
-        {% endif %}
-
-        {% if doc.name contains ".md" and doc.dir == page.dir %}
+        {% if doc.name == "index.md" and doc.dir contains page.dir %}
                 <li><a href="{{ site.baseurl }}{{ doc.url }}">{{ doc.title }}</a></li>
         {% endif %}
     {% endunless %}
+
+    <!-- List all markdown pages in the current dir, but not the index itself -->
+    {% if doc.name contains ".md" and doc.dir == page.dir and doc.path != page.path %}
+            <li><a href="{{ site.baseurl }}{{ doc.url }}">{{ doc.title }}</a></li>
+    {% endif %}
+
 {% endfor %}
 </ul>
