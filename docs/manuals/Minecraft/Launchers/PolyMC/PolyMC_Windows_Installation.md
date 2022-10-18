@@ -1,5 +1,9 @@
 # Installing PolyMC on Windows and more!
 
+# DO NOT USE POLYMC ANYMORE
+
+Placeholder
+
 # Preface
 What is PolyMC? - PolyMC is a fork of the popular Minecraft launcher, MultiMC.
 

@@ -1,6 +1,8 @@
 # A simple guide on starting to use the PolyMC launcher
 
+# DO NOT USE POLYMC ANYMORE
 
+Placeholder
 
 # Manual information
 
