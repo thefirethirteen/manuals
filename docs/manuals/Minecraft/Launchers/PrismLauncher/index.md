@@ -1,5 +1,5 @@
 ---
-title: PolyMC
+title: PrismLauncher
 ---
 
 # Contents

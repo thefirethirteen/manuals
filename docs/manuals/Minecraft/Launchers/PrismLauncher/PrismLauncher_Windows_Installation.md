@@ -1,11 +1,7 @@
-# Installing PolyMC on Windows and more!
-
-# DO NOT USE POLYMC ANYMORE
-
-Placeholder
+# Installing PrismLauncher on Windows and more!
 
 # Preface
-What is PolyMC? - PolyMC is a fork of the popular Minecraft launcher, MultiMC.
+What is PrismLauncher? - PrismLauncher is a *fork* of the popular Minecraft launcher, MultiMC.
 
 # Installing Java 8 & 18
 We will be getting Java from `adoptium.net`. Navigate to <https://adoptium.net/temurin/releases>.
@@ -18,11 +14,11 @@ For both Java 8 and Java 18, select the following:
 
 For Java 8, also select the following:
 * `Version`: 8
-<br> then scroll a bit down and click ![Download Button which says .msi with a download icon to the left of the text](./PolyMC_Windows_Installation/java_installers_msi_download_button.png) to download.
+<br> then scroll a bit down and click ![Download Button which says .msi with a download icon to the left of the text](./PrismLauncher_Windows_Installation/java_installers_msi_download_button.png) to download.
 
 For Java 18, also select the following:
 * `Version`: 18
-<br> then scroll a bit down and click ![Download Button which says .msi with a download icon to the left of the text](./PolyMC_Windows_Installation/java_installers_msi_download_button.png) to download.
+<br> then scroll a bit down and click ![Download Button which says .msi with a download icon to the left of the text](./PrismLauncher_Windows_Installation/java_installers_msi_download_button.png) to download.
 
 ## Installing Java using the downloaded installers
 For Java 8, run the installer with 8 in its name, and for Java 18, run the installer with 18 in its name.
@@ -31,25 +27,25 @@ The process is the same for both: once the installer opens, click `Next`, then `
 ## Finish up
 Java 8 and 18 have been installed on your system. You may now delete the installers.
 
-# Installing PolyMC
-We will be getting Java from `polymc.org`. Navigate to <https://polymc.org/download/>.
+# Installing PrismLauncher
+We will be getting Java from `prismlauncher.org`. Navigate to <https://prismlauncher.org/download/>.
 
-## Before downloading PolyMC
+## Before downloading PrismLauncher
 You must know what version of Windows you have so you can download the right installer. You might already know this information. If you don’t, use the `Windows Key` + `R` key combo to spawn a `Run` box. Enter `winver` in the `Run` box and click `OK`. Your Windows version should be at the very top.
 
 More specifically, you need to know if you have a Windows version above Windows 10 (e.g. Windows 10, Windows 11) or a Windows version below Windows 8.1 (e.g. Windows 8.1, Windows 8, Windows 7, Windows Vista etc.).
 
-## Downloading PolyMC
-Navigate to <https://polymc.org/download/>, if you haven’t already. With the information gathered at the previous section, choose
-1. ![Long, green button which says Installer (.exe)](./PolyMC_Windows_Installation/polymc_installer_download_button.png) for Windows versions above Windows 10
-2. A bit lower on the page, under `Legacy version`, ![Clickable text. The text is Legacy installer (.exe)](./PolyMC_Windows_Installation/polymc_legacy_installer_download_button.png) for Windows versions below Windows 8.1
+## Downloading PrismLauncher
+Navigate to <https://prismlauncher.org/download/>, if you haven’t already. With the information gathered at the previous section, choose
+1. ![Long, pinkish-red button which says Installer (.exe)](./PrismLauncher_Windows_Installation/prismlauncher_installer_download_button.png) for Windows versions above Windows 10
+2. A bit lower on the page, under `Legacy version`, ![Clickable text. The text is Legacy installer (.exe)](./PrismLauncher_Windows_Installation/prismlauncher_legacy_installer_download_button.png) for Windows versions below Windows 8.1
 
-## Installing PolyMC using the downloaded installer
+## Installing PrismLauncher using the downloaded installer
 The process is the same for either installer. Once the installer opens, click `Next`, then `Next`, then `Install`. At the end, click `Finish`.
 
-# Configuring PolyMC on first open
+# Configuring PrismLauncher on first open
 For the following sections you must know the following:
-1. Each section starts with `Screen`, then some words after the colon (`:`). The same words should show up at the top left of the screen PolyMC presents to you.
+1. Each section starts with `Screen`, then some words after the colon (`:`). The same words should show up at the top left of the screen PrismLauncher presents to you.
 2. You may see things like `18.x.x`, the `.x.x` part could mean `18.0.2` or `18.12.56`, for example. The `x`s are used because the guide cannot know for sure what version you have installed.
 
 ## Screen: Language
@@ -73,15 +69,15 @@ You may be asking why we installed two versions of Java. Well, it's because mode
 So, we use Java 8 for those old versions. Java 8 is also needed for playing with the Forge modloader on most older versions.
 
 ## Finish up
-PolyMC has been installed and configured on your system. You may now delete its installer.
+PrismLauncher has been installed and configured on your system. You may now delete its installer.
 
 # Finishing words
 
-You have now installed PolyMC! For a basic guide on using it, check out [PolyMC Usage Guide](https://github.com/thefirethirteen/manuals/blob/main/Minecraft/Launchers/PolyMC/PolyMC_Usage_Guide.md).
+You have now installed PrismLauncher! For a basic guide on using it, check out [PrismLauncher Usage Guide](https://github.com/thefirethirteen/manuals/blob/main/Minecraft/Launchers/PrismLauncher/PrismLauncher_Usage_Guide.md).
 
 # Manual information
 
 &copy; 2022 [manuals contributors](https://github.com/thefirethirteen/manuals/blob/main/contributors.md)
 <br> Licensed under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license
 
-<br> Revision One
+<br> Revision Two
